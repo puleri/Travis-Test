@@ -1,0 +1,219 @@
+2023.06.09 08:44:29 INFO  Started: Metals version 0.11.12 in workspace '/Users/mattpuleri/Desktop/SQL Java/LabStart' for client Visual Studio Code 1.77.3.[0m
+Jun 09, 2023 8:44:29 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jun 09, 2023 8:44:29 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jun 09, 2023 8:44:29 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jun 09, 2023 8:44:29 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/mattpuleri/Desktop/SQL Java/LabStart/.metals/metals (H2 2.1)
+Jun 09, 2023 8:44:29 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jun 09, 2023 8:44:29 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.025s)
+Jun 09, 2023 8:44:29 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jun 09, 2023 8:44:29 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jun 09, 2023 8:44:29 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jun 09, 2023 8:44:29 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jun 09, 2023 8:44:29 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jun 09, 2023 8:44:30 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jun 09, 2023 8:44:30 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.084s)
+2023.06.09 08:44:30 INFO  time: initialize in 0.8s[0m
+2023.06.09 08:44:35 WARN  Build server is not auto-connectable.[0m
+2023.06.09 08:44:35 WARN  no build tool detected in workspace '/Users/mattpuleri/Desktop/SQL Java/LabStart'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.06.09 08:44:35 WARN  no build target for: /Users/mattpuleri/Desktop/SQL Java/LabStart/src/main/java/CILabInterface.java[0m
+Jun 09, 2023 8:44:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jun 09, 2023 8:44:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Jun 09, 2023 8:44:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Jun 09, 2023 8:44:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Jun 09, 2023 8:44:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2023.06.09 08:44:35 WARN  no build target for: /Users/mattpuleri/Desktop/SQL Java/LabStart/src/main/java/CILab.java[0m
+2023.06.09 08:44:36 WARN  Running javac-semanticdb failed for file:///Users/mattpuleri/Desktop/SQL%20Java/LabStart/src/main/java/CILabInterface.java. Output:
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/main/java/CILabInterface.java:1: error: semanticdb-javac: unknown flag 'Java/LabStart/src/main/java'
+public interface CILabInterface {
+^
+1 error[0m
+2023.06.09 08:44:37 WARN  Running javac-semanticdb failed for file:///Users/mattpuleri/Desktop/SQL%20Java/LabStart/src/main/java/CILab.java. Output:
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/main/java/CILab.java:1: error: cannot find symbol
+public class CILab implements CILabInterface {
+                              ^
+  symbol: class CILabInterface
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/main/java/CILab.java:4: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/main/java/CILab.java:9: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/main/java/CILab.java:14: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/main/java/CILab.java:1: error: semanticdb-javac: unknown flag 'Java/LabStart/src/main/java'
+public class CILab implements CILabInterface {
+^
+5 errors[0m
+2023.06.09 08:44:37 INFO  time: code lens generation in 2s[0m
+2023.06.09 08:44:37 INFO  time: code lens generation in 1.88s[0m
+2023.06.09 08:44:37 INFO  time: code lens generation in 1.68s[0m
+2023.06.09 08:45:35 WARN  no build target for: /Users/mattpuleri/Desktop/SQL Java/LabStart/src/main/java/CILab.java[0m
+2023.06.09 08:45:36 WARN  Running javac-semanticdb failed for file:///Users/mattpuleri/Desktop/SQL%20Java/LabStart/src/main/java/CILab.java. Output:
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/main/java/CILab.java:1: error: cannot find symbol
+public class CILab implements CILabInterface {
+                              ^
+  symbol: class CILabInterface
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/main/java/CILab.java:4: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/main/java/CILab.java:9: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/main/java/CILab.java:14: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/main/java/CILab.java:1: error: semanticdb-javac: unknown flag 'Java/LabStart/src/main/java'
+public class CILab implements CILabInterface {
+^
+5 errors[0m
+2023.06.09 08:45:40 WARN  no build target for: /Users/mattpuleri/Desktop/SQL Java/LabStart/src/main/java/CILabInterface.java[0m
+2023.06.09 08:47:29 WARN  no build target for: /Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java[0m
+2023.06.09 08:47:30 WARN  Running javac-semanticdb failed for file:///Users/mattpuleri/Desktop/SQL%20Java/LabStart/src/test/java/CILabTest.java. Output:
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:1: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.AfterEach;
+                            ^
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:2: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.BeforeEach;
+                            ^
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:3: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.Test;
+                            ^
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:5: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.fail;
+                                   ^
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:5: error: static import only from classes and interfaces
+import static org.junit.jupiter.api.Assertions.fail;
+^
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:9: error: cannot find symbol
+    private CILabInterface myString;
+            ^
+  symbol:   class CILabInterface
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:11: error: cannot find symbol
+    @BeforeEach
+     ^
+  symbol:   class BeforeEach
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:16: error: cannot find symbol
+    @AfterEach
+     ^
+  symbol:   class AfterEach
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:21: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:26: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:13: error: cannot find symbol
+        myString = new CILab();
+                       ^
+  symbol:   class CILab
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:23: error: cannot find symbol
+       fail("Not yet implemented");
+       ^
+  symbol:   method fail(String)
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:28: error: cannot find symbol
+        fail("Not yet implemented");
+        ^
+  symbol:   method fail(String)
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:1: error: semanticdb-javac: unknown flag 'Java/LabStart/src/test/java'
+import org.junit.jupiter.api.AfterEach;
+^
+14 errors[0m
+2023.06.09 08:47:30 INFO  time: code lens generation in 1.08s[0m
+2023.06.09 08:48:29 WARN  Using indexes to guess the definition of detectCapitalUse[0m
+2023.06.09 08:48:32 WARN  no build target for: /Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java[0m
+2023.06.09 08:48:33 WARN  Running javac-semanticdb failed for file:///Users/mattpuleri/Desktop/SQL%20Java/LabStart/src/test/java/CILabTest.java. Output:
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:1: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.AfterEach;
+                            ^
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:2: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.BeforeEach;
+                            ^
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:3: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.Test;
+                            ^
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:5: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.*;
+                                   ^
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:9: error: cannot find symbol
+    private CILabInterface myString;
+            ^
+  symbol:   class CILabInterface
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:11: error: cannot find symbol
+    @BeforeEach
+     ^
+  symbol:   class BeforeEach
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:16: error: cannot find symbol
+    @AfterEach
+     ^
+  symbol:   class AfterEach
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:21: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:28: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:35: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:42: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:49: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:56: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:13: error: cannot find symbol
+        myString = new CILab();
+                       ^
+  symbol:   class CILab
+  location: class CILabTest
+/Users/mattpuleri/Desktop/SQL Java/LabStart/src/test/java/CILabTest.java:1: error: semanticdb-javac: unknown flag 'Java/LabStart/src/test/java'
+import org.junit.jupiter.api.AfterEach;
+^
+15 errors[0m
